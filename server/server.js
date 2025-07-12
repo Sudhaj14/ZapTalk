@@ -2,7 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 const http = require("http");
-const { connectDB } = require("./lib/db");
+const { connectDB } = require("./LIB/db");
 const userRouter = require("./routes/userRoutes");
 const messageRouter = require("./routes/messageRoutes");
 const { Server } = require("socket.io");
