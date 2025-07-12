@@ -1,7 +1,7 @@
-const { generateToken } = require("../lib/utils");
+const { generateToken } = require("../LIB/utils");
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
-const cloudinary = require("../lib/cloudinary");
+const cloudinary = require("../LIB/cloudinary");
 
 // Signup a new user
 const signup = async (req, res) => {

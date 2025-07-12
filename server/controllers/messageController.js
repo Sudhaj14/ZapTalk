@@ -1,6 +1,6 @@
 const Message = require("../models/Message");
 const User = require("../models/User");
-const cloudinary = require("../lib/cloudinary");
+const cloudinary = require("../LIB/cloudinary");
 const { io, userSocketMap } = require("../server");
  
 // Get all users except the logged in user
